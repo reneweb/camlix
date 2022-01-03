@@ -1,0 +1,5 @@
+(test
+ (name camlix_test)
+ (libraries alcotest camlix)
+ (preprocess (pps ppx_jane))
+)
